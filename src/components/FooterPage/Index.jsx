@@ -1,7 +1,7 @@
 import React from 'react'
-import '../../styles/components/footer.sass'
+import '../../styles/components/footerPage.sass'
 
-export default function Footer() {
+export default function FooterPage() {
   return (
     <footer>
         <p><span>Pedro Moura</span> - 2022</p>

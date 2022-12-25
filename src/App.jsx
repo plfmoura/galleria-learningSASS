@@ -1,7 +1,7 @@
 import Gallery from "./components/Gallery/Index"
-import NavBar from "./components/NavBar"
-import Footer from "./components/Footer"
+import FooterPage from "./components/FooterPage/Index"
 import './styles/components/app.sass'
+import NavBar from "./components/NavBar"
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Gallery />
-      <Footer />
+      <FooterPage />
     </div>
   )
 }
