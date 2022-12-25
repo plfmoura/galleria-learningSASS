@@ -1,0 +1,35 @@
+@use '../variables'
+@use "../mixins"
+
+.header
+    display: flex
+    justify-content: space-between
+    @include mixins.container
+
+    @include mixins.mobile
+        padding: 1.1rem
+
+    &-brand // .header-brand
+        color: variables.$primary-color
+        font-size: 3rem
+    
+    &-navBar // header-navBar
+        display: flex
+        
+        ul
+            height: 100%
+            @include mixins.flex-center
+
+            @include mixins.mobile
+                display: none
+            li
+                margin: 0 1rem
+                text-transform: uppercase
+                font-size: .8rem
+
+                .active
+                    color: variables.$secondary-color
+
+                a
+                    &:hover
+                        color: variables.$secondary-color

@@ -1,0 +1,30 @@
+@use '../variables'
+@use "../mixins"
+
+.gallery
+    @include mixins.flex-center
+    @include mixins.container
+    flex-wrap: wrap
+    justify-content: space-between
+    padding: 0
+
+    @include mixins.mobile
+        flex-direction: column
+    
+#card-1
+    @include mixins.bg-img('../img/animais.jpg')
+
+#card-2
+    @include mixins.bg-img('pessoas.jpg')
+
+#card-3
+    @include mixins.bg-img('cidade.jpg')
+
+#card-4
+    @include mixins.bg-img('decoracao.jpg')
+
+#card-5
+    @include mixins.bg-img('arquitetura.jpg')
+
+#card-6
+    @include mixins.bg-img('natureza.jpg')
