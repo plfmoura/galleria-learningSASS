@@ -1,3 +1,5 @@
-# Projeto de uma galeria, utilizando SASS para estilização, primeiros passos em SASS.
+# Galleria 
 
-You can find this project lading page here: <a href="https://galleria-react-sass-plfmoura.vercel.app/">Vercel deployment<a>
+Projeto de uma galeria, utilizando <strong>SASS</strong> para estilização.
+
+Você pode acessar o projeto neste link: <a href="https://galleria-react-sass-plfmoura.vercel.app/">Vercel deployment<a>
